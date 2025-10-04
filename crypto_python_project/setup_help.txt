@@ -1,0 +1,16 @@
+Environment: a self-contained Python setup with its own packages. Keep a project clean
+and separate from everything else. Create one for every project.
+
+Creating an environment:
+# in Anaconda Prompt
+conda create -n crypto python=3.11 -y
+conda activate crypto
+pip install -r requirements.txt
+
+- new environment "crypto"
+
+Daily use:
+conda activate crypto
+# ...do your work...
+conda deactivate
+
